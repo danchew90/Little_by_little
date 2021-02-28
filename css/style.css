@@ -1,0 +1,20 @@
+/* reset */
+@import "./reset.css";
+
+@import "./menutab.css";
+@import "./status-bar.css";
+
+body {
+  background: #f7df7d;
+}
+
+#map {
+  width: 375px;
+  height: 375px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
