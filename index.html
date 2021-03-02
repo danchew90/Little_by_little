@@ -18,26 +18,19 @@
         </label>
         <div class="sidebar">
          <div class="menu-container">
-             <div class="menu-box">
-                 <a href="#">
-                     <span>hello</span>
-                </a>     
-             </div>
-             <div class="menu-box">
-                <a href="#">
-                    <span>hello</span>
-               </a>     
+            <div class="accordion">
+                <input type="checkbox" id="answer01">  
+                <label for="answer01">Hello<em></em></label>
+                <div><a href="hello.html"><p>about</p></a></div>
+                <input type="checkbox" id="answer02">  
+                <label for="answer02">Hello<em></em></label>
+                <div><p>about</p></div>
             </div>
-            <div class="menu-box">
-                <a href="#">
-                    <span>hello</span>
-               </a>     
             </div>
-         </div>
         </div>
     </div>
     <div class="status-bar__column">
-        <img src="lil_b_lil.png">
+        <a href="index.html"><img src="lil_b_lil.png"></a>
     </div>
     <div class="status-bar__column">
         <div class="js-clock">
@@ -45,18 +38,10 @@
         </div>
     </div>
 </div>
-<div id="map" style="width:300px;height:300px;"></div>
 <script src="./js/clock.js"></script>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e8e9e975b0ca59bdc2f1055e9c55816d"></script>
-<script>
-    var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
-var options = { //지도를 생성할 때 필요한 기본 옵션
-	center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
-	level: 3 //지도의 레벨(확대, 축소 정도)
-};
-
-var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-</script>
 </body>
+<div id="splash-screen">
+    <h2>Little By Little</h2>
+</div>
 </html>
         

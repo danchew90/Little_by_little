@@ -9,7 +9,7 @@ input[id="menuicon"] + label {
   position: fixed;
   left: 10px;
   top: 15px;
-  transition: all 0.25s;
+  transition: all 0.35s;
   cursor: pointer;
 }
 
@@ -25,7 +25,7 @@ input[id="menuicon"] + label span {
   height: 2px;
   border-radius: 5px;
   background: #000;
-  transition: all 0.25s;
+  transition: all 0.35s;
 }
 
 input[id="menuicon"] + label span:nth-child(1) {
@@ -64,7 +64,7 @@ div[class="sidebar"] {
   top: 0;
   left: -300px;
   z-index: 1;
-  transition: all 0.25s;
+  transition: all 0.35s;
 }
 
 input[id="menuicon"]:checked + label + div {
@@ -74,25 +74,4 @@ input[id="menuicon"]:checked + label + div {
 .menu-container {
   width: 100%;
   margin-top: 50px;
-}
-
-.menu-box {
-  border-bottom: 1px solid #f7df7d;
-  padding: 10px 5px;
-  align-items: center;
-  text-align: center;
-}
-
-.menu-box:hover {
-  background: #f7df7d;
-}
-
-.menu-box a,
-.menu-box span {
-  text-decoration: none;
-  color: #000;
-}
-
-.menu-box span:hover {
-  color: #ffffff;
 }
